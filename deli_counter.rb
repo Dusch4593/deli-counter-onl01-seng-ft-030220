@@ -4,8 +4,8 @@ def line(deli)
     puts "The line is currently empty."
   else
     result = "The line is currently: "
-    deli.each.with_index(1){|persome, i|
-      result << "#{i}. #{person}"
+    deli.each.with_index(1){|person, i|
+      result << " #{i}. #{person}"
     }
     puts result
     return result
