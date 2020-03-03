@@ -4,7 +4,9 @@ def line(deli)
     puts "The line is currently empty."
   else
     result = "The line is currently: "
-    deli.each_with_index(1){|persome, i|}
+    deli.each_with_index(1){|persome, i|
+      
+    }
     end
     puts result
     return result
