@@ -7,9 +7,10 @@ def line(deli)
     deli.each_with_index(1){|persome, i|
       result << "#{i}. #{person}"
     }
+    puts result
+    return result
   end
-  puts result
-  return result
+
 end
 
 def take_a_number(deli, name)
