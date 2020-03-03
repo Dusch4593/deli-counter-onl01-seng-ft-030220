@@ -5,7 +5,7 @@ def line(deli)
   else
     result = "The line is currently: "
     deli.each_with_index(1){|persome, i|
-      
+      result << "#{i}"
     }
     end
     puts result
