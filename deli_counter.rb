@@ -4,12 +4,7 @@ def line(deli)
     puts "The line is currently empty."
   else
     result = "The line is currently: "
-    for i in 0..deli.size-1 do
-      place_in_line = "#{i+1}. #{deli[i]}"
-      result << place_in_line
-      if(i != deli.size-1)
-        result << " "
-      end
+    
     end
     puts result
     return result
