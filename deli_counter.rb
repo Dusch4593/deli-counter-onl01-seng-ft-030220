@@ -14,14 +14,8 @@ def line(deli)
 end
 
 def take_a_number(deli, name)
-  if(deli.size == 0)
-    deli_number = 1
-    deli << name
-    puts "Welcome, #{name}. You are number #{deli_number} in line."
-  else
-    deli << name
-    puts "Welcome, #{name}. You are number #{deli.size} in line."
-  end
+  deli << name
+  puts "Welcome, #{name}. You are number #{deli.size}."
 end
 
 def now_serving(deli)
